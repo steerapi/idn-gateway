@@ -1,0 +1,54 @@
+{
+  "name": "@idn/gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "webpack",
+    "start": "node -r @ts-tools/node src/index.ts",
+    "dopublish": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chainintel/js-sdk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "ts-loader": "^5.2.2",
+    "typescript": "^2.5.2",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@idn/util-buffer": "^1.0.2",
+    "@idn/util-promisify": "^1.0.3",
+    "@ts-tools/node": "^0.7.2",
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "bufferutil": "^4.0.0",
+    "cids": "^0.5.6",
+    "cors": "^2.8.5",
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "fs-ext": "^1.2.1",
+    "hapi": "^16.7.0",
+    "hapi-set-header": "^1.0.2",
+    "hoek": "^6.1.1",
+    "node-fetch": "^2.3.0",
+    "once": "^1.4.0",
+    "pull-stream": "^3.6.9",
+    "readable-stream": "^3.0.6",
+    "stream-to-pull-stream": "^1.7.2",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "utf-8-validate": "^5.0.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
